@@ -1,0 +1,57 @@
+.game-container {
+  text-align: center;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+}
+
+.guessing-area {
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.guess-title {
+  margin: 10px;
+}
+
+.guess {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  vertical-align: top;
+}
+
+#computer-guess {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 20px auto;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.button[disabled] {
+  background-color: lightgray;
+  color: gray;
+  cursor: default;
+}
+
+.winning-text, .winning-text[disabled]  {
+  color: green;
+  font-weight: bold;
+}
